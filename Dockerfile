@@ -4,4 +4,5 @@ COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python"]
-CMD ["ID1.py"]
+EXPOSE 6000
+CMD ["ID1.py"i]
