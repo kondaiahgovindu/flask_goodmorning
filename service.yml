@@ -4,7 +4,7 @@ metedata:
   name: simple-svc
 spec:
   selector:
-    app: nginx
+    app: ID1
   type: NodePort
   ports:
   - name: http
