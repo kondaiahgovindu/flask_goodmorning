@@ -5,4 +5,4 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python"]
 EXPOSE 6000
-CMD ["python ID1.py"i]
+CMD ["python ID1.py"]
